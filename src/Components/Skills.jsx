@@ -7,7 +7,7 @@ import { FaMobileScreenButton } from "react-icons/fa6";
 function Skills() {
    
   return (
-    <div  className='relative bg-gradient-to-r from-black to-lime-700/30 grid grid-cols-1  bg-black text-white h-170 lg:h-115  opacity-98'>
+    <div  className='relative bg-gradient-to-r from-black to-lime-600/30 grid grid-cols-1  bg-black text-white h-170 lg:h-115  opacity-98'>
     <div className='lg:px-25 pt-15 space-y-5 px-6'>
        <div className='flex justify-center'>
          <h1 className='lg:text-4xl text-xl  font-bold text-white  '>My <span className='text-lime-500'>Skills</span></h1>

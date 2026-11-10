@@ -33,10 +33,10 @@ function AppBar() {
         > Contact  </a>
 
       </div>
-      {menu && (<div className='md:hidden text-[20px] bg-black h-70 flex flex-col  
+      {menu && (<div className='md:hidden text-[20px] bg-black h-70 flex flex-col z-10 
        absolute left-0  top-18 w-3/3 py-10 space-y-4 ' >
 
-        <Link to="/" href="#Home" className='flex space-x-2 items-center ml-4 bg-gradient-to-l from-black to-lime-800'><FaHome /><span>Home</span></Link>
+        <Link to="/" href="#Home" className='flex space-x-2 items-center ml-4 bg-gradient-to-l from-black to-lime-800 '><FaHome /><span>Home</span></Link>
         <Link to="/about" href="#About" className='flex space-x-2 items-center ml-4 bg-gradient-to-r from-black to-lime-800/20'><IoPersonSharp /><span>About</span></Link>
          <Link to="/skills" href="#Skill" className='flex space-x-2 items-center ml-4 bg-gradient-to-l from-black to-lime-800 '><FaCode /><span>Skill</span></Link>
          <Link to='/projectview' href="#Home" className='flex space-x-2 items-center ml-4 bg-gradient-to-r from-black to-lime-800/20' > <GoProject /><span>Project</span></Link>

@@ -14,12 +14,12 @@ import Certificate from './Certificate';
 function Home() {
     return (
         <>
-            <div className='bg-gradient-to-r from-black to-lime-800/30  lg:px-3 lg:pt-4 grid lg:grid-cols-2 grid-cols-1  bg-black text-white lg:h-140 h-180 '>
+            <div className='bg-gradient-to-r from-black to-lime-600/30  lg:px-3 lg:pt-4 grid lg:grid-cols-2 grid-cols-1  bg-black text-white lg:h-140 h-180 '>
                 <div className='lg:space-y-5 space-y-3 p-5 lg:px-25 lg:py-10  py-10 mt-0 text-center lg:text-start'>
                     <h1 className='text-xl '>Hi,I'm</h1>
-                    <h1 className='md:text-8xl text-5xl  font-bold text-lime-500  '>Aji<span className='text-white'>sha</span></h1>
-                    <h2 className='text-2xl'>I’m a <span className='text-lime-500 '>Frontend Developer</span></h2>
-                    <p className='md:text-2xl lg:text-lg text-center lg:text-start' >An enthusiastic Frontend Developer
+                    <h1 className='md:text-8xl text-5xl  font-bold text-lime-500  bg-gradient-to-r from-black to-lime-800/30 '>Aji<span className='text-white'>sha</span></h1>
+                    <h2 className='text-2xl bg-gradient-to-l from-black to-lime-800/30'>I’m a <span className='text-lime-500 '>Frontend Developer</span></h2>
+                    <p className='md:text-2xl lg:text-lg text-center lg:text-start bg-gradient-to-r from-black to-lime-800/30' >An enthusiastic Frontend Developer
                         passionate about building clean, user-friendly,
                         and responsive web applications.</p>
                     <div className='flex space-x-3'><a
