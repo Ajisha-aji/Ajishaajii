@@ -47,7 +47,7 @@ function ProjectView() {
    
   ];
   return (
-    <div className='bg-gradient-to-r from-black to-lime-700/30 grid grid-cols-1  bg-black text-white h-720 lg:h-330  '>
+    <div className='bg-gradient-to-r from-black to-lime-700/30 grid grid-cols-1  bg-black text-white h-620 lg:h-330  '>
       <div className='lg:px-25 pt-15 space-y-5 px-6 ' >
         <h1 className='lg:text-4xl text-xl  font-bold text-white '>My <span className='text-lime-500'>Projects</span></h1>
         <h2>Turning Ideas into Interactive Web Experiences</h2>
